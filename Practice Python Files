@@ -1,0 +1,60 @@
+Question 1: Write a program that prompts the user for two integers and then prints
+
+The sum
+The difference
+The product
+The average
+The distance (absolute value of the difference)
+The maximum
+The minimum
+[ ]
+print ("Please enter a number")
+x = input ()
+x = int(x)
+print ("Please enter another number")
+y = input ()
+y = int(y)
+print ("Now we will perform a few tasks:")
+print ("The sum is"+' ',x+y)
+print ("The difference is"+' ',x-y)
+print ("The product is"+' ',x*y)
+
+Please enter a number
+8
+Please enter another number
+3
+Now we will perform a few tasks:
+The sum is  11
+The difference is  5
+The product is  24
+The average is  5.5
+The distance is  5
+The maximum is  8
+The minimum is  3
+Question 2: Write a program that asks the user to input
+
+The number of gallons of gas in the tank
+The fuel efficiency in miles per gallon
+The price of gas per gallon
+Then print the cost per 100 miles and how far the car can go with the gas in the tank.
+
+[ ]
+from re import M
+print ("Please enter the number of gallons in the tank")
+x = input ()
+x = int(x)
+print ("Please enter the fuel efficiency of your car in MPG")
+y = input ()
+y = float(y)
+print ("Please enter the gas price per gallon in dollars")
+z = input ()
+z = float(z)
+
+Please enter the number of gallons in the tank
+10
+Please enter the fuel efficiency of your car in MPG
+25.3
+Please enter the gas price per gallon in dollars
+4.9393
+The car can travel 253.0 miles.
+The cost per 100 miles is 19.52292490118577 dollars.
